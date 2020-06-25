@@ -7,7 +7,7 @@ name_collection = []
 while i < array.legnth 
 name_collection.pop
 
-1 += 1
+i += 1
 end
 name_collection
 end

@@ -1,17 +1,14 @@
-array = ["RUBY", "JAVASCRIPT", "PYTHON", "OBJECTIVE-C"]
-
-
 def my_collect(array)
-i = 0 
-name_collection = ["Tim Jones", "Tom Smith", "Jim Campagno"]
-while i < array.length 
-name_collection.pop
-
-i += 1
+  i = 0
+  result = []
+  while i < array.length
+    result.push(yield array[i])
+      i += 1
+  end
+  result
 end
-name_collection
-end
 
-my_collect(array) do |array|
-  array.upcase
+array = ["Tim Jones", "Tom Smith", "Jim Campagno"]
+my_collect(array) do |name|
+  name.split(" ").first
 end

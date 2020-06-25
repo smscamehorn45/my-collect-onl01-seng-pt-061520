@@ -1,4 +1,4 @@
-array = ["ruby", "Java", "Jim Campagno"]
+array = ["RUBY", "JAVASCRIPT", "PYTHON", "OBJECTIVE-C"]
 
 
 def my_collect(array)

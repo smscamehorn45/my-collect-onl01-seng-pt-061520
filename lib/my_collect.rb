@@ -5,4 +5,4 @@ def my_collect(array)
 i = 0 
 name_collection = []
 while i < array.legnth 
-name_collection.
+name_collection.pop

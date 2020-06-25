@@ -14,3 +14,4 @@ end
 
 my_collect(array) do |array|
   array.upcase
+end
